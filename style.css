@@ -24,7 +24,7 @@ body {
 .container {
     background-color: var(--branco);          
     width: 16%;
-    height: 50%;
+    height: 55%;
     display: flex;    
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
 img {
     border-radius: 15px;
     width: 90%;
-    height: 65%;
+    height: 60%;
     
 }
 
@@ -61,7 +61,7 @@ p {
 }
 
 /*Falta a parte mobile*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 820px) {
     .container {
         width: 80%;
     }
